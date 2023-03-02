@@ -1,0 +1,16 @@
+create_queue:
+  description: >
+    Adds episodes to media player
+  fields:
+    entity_id:
+      description: ID of entity to media player
+      example: lounge.media_player
+    url:
+      description: Postcast RRS url
+      example: 'https://.....'
+    ramdomise:
+      description: Add in random order
+      example: 'true'
+    limit:
+      description: Optional size of the queue
+      example: 10

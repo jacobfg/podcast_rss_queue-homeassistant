@@ -1,0 +1,14 @@
+{
+  "domain": "podcast_rss_queue",
+  "name": "Podcast RSS Queue",
+  "codeowners": ["@jacobfg"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.home-assistant.io/integrations/podcast_rss_queue",
+  "homekit": {},
+  "integration_type": "helper",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": []
+}
